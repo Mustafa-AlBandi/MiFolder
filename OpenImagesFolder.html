@@ -42,6 +42,14 @@
 <body>
 
 <header></header>
+    <script>
+    const password = "mypassword"; // Set your password here
+    let userPassword = prompt("Enter password to access this page:");
+    if (userPassword !== password) {
+      alert("Incorrect password!");
+      window.location.href = "https://mustafa-albandi.github.io/"; // redirect
+    }
+  </script>
 
 <!-- Embed your Web App URL here -->
 <iframe src="https://script.google.com/macros/s/AKfycbxAs1KjTTKSSVXPTjegmOBzjq8U4GOD2Mdmu2axLiC2JX4NjEB4g2NrI8zbCGDSFZaMcg/exec"></iframe>
@@ -50,3 +58,4 @@
 
 </body>
 </html>
+
